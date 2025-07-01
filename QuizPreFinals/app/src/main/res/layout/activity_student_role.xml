@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".StudentRole">
+
+    <TextView
+        android:id="@+id/student_role_TV"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Student Role"
+        android:textStyle="bold"
+        android:textSize="25dp" />
+
+    <RadioGroup
+        android:id="@+id/studRole_radgroup"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/student_role_TV"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio_backend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Backend developer"/>
+
+        <RadioButton
+            android:id="@+id/radio_frontend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frontend developer"/>
+
+        <RadioButton
+            android:id="@+id/radio_designer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UI Designer"/>
+
+        <RadioButton
+            android:id="@+id/radio_tester"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tester"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_below="@id/student_role_TV"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+
+    </RadioGroup>
+
+</RelativeLayout>
