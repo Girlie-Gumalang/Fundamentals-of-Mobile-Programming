@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView_odd_even"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Odd or Even Checker"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#673AB7"/>
+
+    <EditText
+        android:id="@+id/et_user_input"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_odd_even"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:hint="Enter a value"
+        android:layout_marginTop="35dp"/>
+
+    <Button
+        android:id="@+id/check_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Check"
+        android:textSize="18sp"
+        android:layout_below="@id/et_user_input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>
