@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_user_reg_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Registration Form"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#5B0404" />
+
+    <TextView
+        android:id="@+id/tv_first_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First name"
+        android:textStyle="bold"
+        android:layout_below="@+id/tv_user_reg_form"
+        android:layout_marginTop="40dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_first_name"
+        android:layout_below="@+id/tv_first_name_label"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:hint="Enter your first name"/>
+
+    <TextView
+        android:id="@+id/tv_last_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last name"
+        android:textStyle="bold"
+        android:layout_below="@+id/et_first_name"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_last_name"
+        android:layout_below="@+id/tv_last_name_label"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:hint="Enter your last name"/>
+
+    <TextView
+        android:id="@+id/tv_age_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:textStyle="bold"
+        android:layout_below="@+id/et_last_name"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_age"
+        android:layout_below="@+id/tv_age_label"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:hint="Enter your age"/>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_age"
+        android:layout_marginTop="30dp"
+        android:text="Submit"
+        android:textSize="18sp"
+        android:backgroundTint="#5B0404" />
+
+</RelativeLayout>
