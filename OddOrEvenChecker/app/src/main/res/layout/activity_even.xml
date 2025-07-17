@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".EvenActivity">
+
+    <TextView
+        android:id="@+id/textView_even_result"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView_even"
+        android:layout_below="@+id/textView_even_result"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Even Number!"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#4CAF50"/>
+
+    <TextView
+        android:id="@+id/display_even"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_even"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Display even"
+        android:gravity="center"
+        android:textSize="18sp" />
+
+</RelativeLayout>
