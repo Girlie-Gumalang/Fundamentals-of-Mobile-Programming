@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QuizPreFinals</string>
+
+    <string-array name="course_array">
+        <item>Select a course</item>
+        <item>BSCS</item>
+        <item>BSIT</item>
+        <item>BMMA</item>
+    </string-array>
+
+</resources>
