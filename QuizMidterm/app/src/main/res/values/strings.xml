@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QuizMidterm</string>
+    <string name="imagebtn">Image Button</string>
+
+    <string-array name="Programs">
+        <item>BSCS</item>
+        <item>BSIT</item>
+    </string-array>
+
+</resources>
